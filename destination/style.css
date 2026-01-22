@@ -403,3 +403,33 @@ body {
   background: #02f760;
 }
 
+.footer {
+  background-color: #222;      /* لون الخلفية */
+  color: #fff;                /* لون النص */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+
+.glr{
+    height: 350px;
+}
+
