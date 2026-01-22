@@ -1553,6 +1553,44 @@ header .right {
   text-decoration: underline;
 }
 
+ 
+@media (max-width: 600px) {
+  .reviews-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .reviews-left h1 {
+    font-size: 48px;
+  }
+
+    .title_reviews   {
+    text-align: center;
+    
+  }
+}
+
+
+@media (max-width: 996px) {
+  .reviews-container {
+    
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .reviews-left h1 {
+    font-size: 48px;
+  }
+
+    .title_reviews   {
+    text-align: center;
+    
+  }
+}
+
+
+
 
 .reviews-controls {
   display: flex;
