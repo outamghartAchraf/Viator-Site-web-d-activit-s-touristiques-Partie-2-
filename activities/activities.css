@@ -19,12 +19,14 @@
 }.logo{
     display: flex;
     align-items: center;
+    gap: 60px;
 
 }
 .logo img{
     width: 110px;
     margin-left: 20px;
     margin-top: 7px;
+    
 
 }
 
@@ -61,10 +63,14 @@
 }
 
 .box{
-    border: 100px;
-    border-radius: 90px;
-    background-color: aquamarine;
-    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 5px 50px;
+    border-radius: 50px;
+    background-color: gainsboro;
+    width: 400px;
+    height: auto;
 }
 .contnaire img{
     width: 350px;
@@ -79,7 +85,8 @@
     border: none;
     outline: none;
     font-size: 16px;
-    width: 600;
+    width: 650px;
+    background: transparent;
 }
 .bg{
     display: flex;
@@ -96,7 +103,12 @@ h2{
    text-align: center;
 }
 .search{
-    width: 19px;
+    background: none;
+   border: none;
+   cursor: pointer;
+}
+.search img {
+    width: 20px;
     height: 20px;
 }
  .imagg{
@@ -112,6 +124,7 @@ h2{
     align-items: center;
     padding: 20px;
     border-bottom: 1px solid black;
+     
 }
 
 .sn{
@@ -127,3 +140,5 @@ h2{
     margin: 40px 0;
 
 }
+
+
