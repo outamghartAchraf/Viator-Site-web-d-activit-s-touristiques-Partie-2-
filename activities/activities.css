@@ -1,0 +1,129 @@
+.inter{
+    margin-top: 25px;
+    width: 30px;
+}
+.icons{
+    display: flex;
+    justify-content:space-between;
+    /*margin-left: 800px;*/
+    gap: 30px;
+ 
+}.gift{
+    margin-top: 25px;
+    width: 30px;
+}.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 110px;
+    margin-left: 20px;
+    margin-top: 7px;
+
+}
+
+.user{
+  height: 40px;
+   
+    justify-content: left;
+}
+.user{
+    margin-top: 20px;
+    width: 35px;
+    border-radius: 14px;
+}
+
+.h6{
+    margin-left: 26px;
+    font-size: 9.5px;
+    margin-top: 2px;
+}.opt{
+    margin-left: 30px;
+    margin-top: -12px;
+    border: none;
+    
+}
+.opt{
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.h1{
+    text-align: center;
+   
+}
+
+.box{
+    border: 100px;
+    border-radius: 90px;
+    background-color: aquamarine;
+    width: 300px;
+}
+.contnaire img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px;
+     border-radius: 40px;
+     display: flex;
+     justify-content: center;
+}
+.box input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 600;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+   
+}
+.bg2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+h2{
+   text-align: center;
+}
+.search{
+    width: 19px;
+    height: 20px;
+}
+ .imagg{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.quest{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.sn{
+    border-top:1px solid black;
+}
+
+.re{
+    border: none;
+}
+
+.list{
+    padding: 0 20px;
+    margin: 40px 0;
+
+}
