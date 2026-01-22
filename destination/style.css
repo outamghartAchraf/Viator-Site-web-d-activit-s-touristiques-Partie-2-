@@ -4,15 +4,14 @@ body {
 }
 
 .navbar {
-  max-width: 1200px;
-  margin: auto;
+  
   padding: 15px 20px;
   height: 30px;
-  background-color: red;
-
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: solid;
 }
 
 .nav-left {
@@ -54,16 +53,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.navbar {
-  max-width: 1200px;
-  margin: auto;
-  padding: 15px 20px;
-  height: 30px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .nav-left {
   display: flex;
@@ -104,16 +94,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.navbar {
-  max-width: 1200px;
-  margin: auto;
-  padding: 15px 20px;
-  height: 30px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .nav-left {
   display: flex;
@@ -156,16 +137,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.navbar {
-  max-width: 1200px;
-  margin: auto;
-  padding: 15px 20px;
-  height: 30px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .nav-left {
   display: flex;
@@ -381,15 +352,54 @@ body {
   transform: scale(1.1); /* الزوم */
 }
 
+.Top_Attractions h3{
+  padding: 12px 9px;
+  border: solid 2px rebeccapurple;
+
+}
+.Attractions{
+  padding: 12px 9px;
+}
+.like{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px yellowgreen;
+  padding: 12px 9px;
+  gap: 6px;
+}
 
 
+.numbres{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 50%;
+ margin: 0 auto;
+ margin-top: 20px;
+  gap: 20px;
+  font-size: 18px;
+  padding: 12px 9px;
+  border: solid 2px rebeccapurple;
 
 
+}
+.num, .points {
+  width: 25px;             /* حجم الرقم */
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;      /* دائرة */
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px;
 
 
+}
 
-
-
-
-
+.sn{
+  background: #02f760;
+}
 
