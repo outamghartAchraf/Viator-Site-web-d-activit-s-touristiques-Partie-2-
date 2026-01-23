@@ -1847,3 +1847,32 @@ h3 {
 .why a {
   color: #0071eb;
 }
+
+
+ 
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .header{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header h2{
+    font-size: 24px;
+  }
+
+  .image img {
+    height: 200px;
+  }
+}
