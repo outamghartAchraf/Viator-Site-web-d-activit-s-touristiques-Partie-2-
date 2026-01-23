@@ -2115,3 +2115,25 @@ h3 {
   margin-left: 20px;
   font-size: 14px;
 }
+
+
+
+@media (max-width: 600px) {
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bottom-links a {
+    margin: 0 10px;
+  }
+
+  .fa-google-play,
+  .fa-apple {
+    font-size: 14px;
+  }
+}
