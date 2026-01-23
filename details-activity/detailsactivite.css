@@ -1730,4 +1730,120 @@ header .right {
 
  
 
+
+.experiences {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+   
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  position: relative;
+}
+
+.card.current {
+  border: 2px solid #e0e0e0;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  background: #e0e0e0;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
  
+.image {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+ 
+h3 {
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.rating1 {
+  color: #00a680;
+  font-size: 14px;
+  margin-bottom: 10px;
+
+}
+
+.rating span {
+  color: #000;
+  margin-left: 5px;
+}
+
+.info {
+  list-style: none;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.info li {
+  padding: 6px 0;
+  border-top: 1px solid #eee;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ 
+.why {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.why a {
+  color: #0071eb;
+}
