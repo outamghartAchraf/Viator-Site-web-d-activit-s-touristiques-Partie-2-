@@ -19,7 +19,7 @@
 }.logo{
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 10px;
 
 }
 .logo img{
@@ -65,7 +65,7 @@
 .box{
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 190px;
     padding: 5px 50px;
     border-radius: 50px;
     background-color: gainsboro;
@@ -140,5 +140,54 @@ h2{
     margin: 40px 0;
 
 }
+@media (max-width: 768px) {
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo img {
+    margin-left: 0;
+  }
+
+  .icons {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .box {
+    width: 90%;
+    gap: 20px;
+    padding: 8px 20px;
+  }
+
+  .box input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .bg,
+  .bg2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contnaire img {
+    width: 90%;
+    height: auto;
+  }
+
+  .quest h2 {
+    font-size: 16px;
+  }
+
+}
+.serc{
+    display: flex;
+    gap: 200px;
+}
+
 
 
