@@ -133,3 +133,101 @@ justify-content: center;
     padding: 0 12px;
     white-space: nowrap;
 }
+.social-cards {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.social-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.social-card:hover {
+    background-color: #f5f5f5;
+}
+
+.social-card i {
+    font-size: 18px;
+}
+
+.social-card.google i {
+    color: #DB4437;
+}
+
+.social-card.facebook i {
+    color: #1877F2;
+}
+
+.social-card.apple i {
+    color: #000;
+}
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.signup-link a {
+    color: #28a745;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 12px 16px;
+       
+        gap: 10px;
+        
+
+    }
+
+    .menu a {
+        margin-left: 10px;
+        font-size: 14px;
+        display: none;
+
+    }
+    .menu .iconm{
+         display: block;
+    }
+
+    .login-container {
+        padding-top: 100px;
+    }
+
+    .login-container h1 {
+        font-size: 22px;
+    }
+
+    .login-form input,
+    .login-form button {
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .social-card {
+        font-size: 13px;
+        padding: 12px;
+    }
+}
+
