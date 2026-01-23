@@ -1070,7 +1070,59 @@ header .right {
   cursor: pointer;
 }
 
+ @media (max-width: 900px) {
+  .reviews-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .arrow-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
  
+.filters
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+
+  }
+
+  .reviews-header{
+    padding: 0 15px;
+  }
+
+.reviews-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+}
+
+
+@media (max-width: 996px) {
+ 
+.filters
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+
+  }
+
+  .reviews-header{
+    padding: 0 15px;
+  }
+
+.reviews-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+}
+
 
 
 
