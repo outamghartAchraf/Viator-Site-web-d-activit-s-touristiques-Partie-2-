@@ -98,3 +98,29 @@ margin-top: 20px;
     display: flex;
     gap: 10px;
 }
+.rules {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.rules li {
+    margin-bottom: 6px;
+}
+
+.info-text {
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+.signup-form button {
+    width: 100%;
+    padding: 14px;
+    background: #43b94a;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
