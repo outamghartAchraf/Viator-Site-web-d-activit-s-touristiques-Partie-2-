@@ -360,6 +360,25 @@ body {
 .Attractions{
   padding: 12px 9px;
 }
+
+.gallery-item .glr {
+  width: 100%;
+  height: 360px;   /* الكادر */
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* يعمّر الكادر كامل */
+  display: block;
+}
+
+/* إلا بغيتها أطول من الباقي */
+.gallery-item.tall .glr {
+  height: 400px;
+}
+
 .like{
   display: flex;
   justify-content: center;
@@ -368,6 +387,8 @@ body {
   padding: 12px 9px;
   gap: 6px;
 }
+
+
 
 
 .numbres{
