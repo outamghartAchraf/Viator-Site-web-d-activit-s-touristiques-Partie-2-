@@ -190,4 +190,27 @@ h2{
 }
 
 
+.pagination {
+  display: flex;
+  gap: 20px;
+ text-align: center;
+  padding: 20px;
+}
+
+.pagination span {
+  padding: 6px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: green;
+}
+
+.pagination .active {
+  background: green;
+  color: white;
+}
+.pagination .active1 {
+  background:rgb(217, 215, 215);
+  color:green;
+}
+
 
