@@ -1356,6 +1356,27 @@ header .right {
 }
 
 
+ 
+@media (max-width: 900px) {
+  .photos-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .photo.big {
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .right-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .right-grid .photo {
+    height: 180px;
+  }
+}
 
 
 .featured-review {
