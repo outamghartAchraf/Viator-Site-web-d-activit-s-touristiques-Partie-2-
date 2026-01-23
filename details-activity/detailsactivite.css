@@ -1252,26 +1252,6 @@ header .right {
 }
 
  
-@media (max-width: 1000px) {
-  .cards-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 10px;
-  }
-}
-
-@media (max-width: 650px) {
-  .cards-wrapper {
-    grid-template-columns: 1fr;
-  }
-  .experiences_title{
-    text-align: center;
-    font-size: 23px;
-  }
-
-  .slider-arrow {
-    display: none;
-  }
-}
 
 
 
@@ -1588,8 +1568,6 @@ header .right {
     
   }
 }
-
-
 
 
 .reviews-controls {
