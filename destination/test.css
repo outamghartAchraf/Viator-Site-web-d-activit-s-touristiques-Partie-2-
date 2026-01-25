@@ -396,9 +396,12 @@ body {
     gap: 10px;
   }
 
-  .nav-left,
-  .nav-right {
+  .nav-left
+  {
     gap: 15px;
+  }
+  .nav-right {
+    display: none;
   }
 
   .nav-center input {
