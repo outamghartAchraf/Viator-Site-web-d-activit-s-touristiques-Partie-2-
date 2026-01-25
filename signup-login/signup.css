@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.signup-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 34px;
+}
+
+.logo h6 {
+    font-size: 12px;
+    color: #555;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #111;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.menu .icon {
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+.menu .iconm{
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+
+.menu .icon:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.signup-container{
+max-width:420px ;
+margin: 140px auto 0;
+padding:0 20px;
+
+}
+.email-box{
+display:flex;
+align-items:center;
+gap:12px;
+margin-bottom:30px;
+}
+.email-box .logo{
+width:42px;
+height: 42px;
+background: #c7f0c2;
+color: #0a7d3b;
+border-radius: 50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+}
+.email-box h4 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.email-box a {
+    font-size: 14px;
+    color: #0a7d3b;
+    text-decoration: none;
+}
+.signup-form input{
+width:100%;
+padding:14px;
+margin-bottom: 16px;
+border-radius: 10px;
+border: none;
+background: #f2f2f2;
+font-size: 14px;
+margin-top: 20px;
+}
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+.rules {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.rules li {
+    margin-bottom: 6px;
+}
+
+.info-text {
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+.signup-form button {
+    width: 100%;
+    padding: 14px;
+    background: #43b94a;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (max-width: 480px) {
+    .signup-header {
+        padding: 15px 20px;
+    }
+.menu a {
+        margin-left: 12px;
+        display: none;
+    }
+    .menu .iconm{
+         display: block;
+    }
+
+    .signup-container {
+        margin-top: 120px;
+    }
+
+    .name-fields {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+
+    .signup-container {
+        max-width: 90%;
+        margin-top: 130px;
+    }
+
+    .signup-header {
+        padding: 18px 24px;
+    }
+}
