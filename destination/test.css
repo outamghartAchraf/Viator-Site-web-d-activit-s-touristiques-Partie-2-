@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: solid;
+  
 }
 
 .nav-left {
@@ -20,8 +20,8 @@ body {
 }
 
 .logo img {
-  height: 25px !important;
-  width: auto !important;
+  height: 25px ;
+  width: auto;
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .icon-circle1 {
-  width: 30px;
+  width: 70px;
   height: 40px;
   border-radius: 55%;
   background-color: #b3b3b3;
@@ -90,7 +90,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   color: #212020;
-  background-color: aqua;
+  
 }
 
 .sub-menu a {
@@ -148,7 +148,7 @@ body {
   margin-top: 17px;
 }
 
-.tous-options {}
+
 
 .slider {
   display: flex;
@@ -156,7 +156,12 @@ body {
   overflow-x: auto;
   padding: 10px;
   border: none;
-  scroll-behavior: smooth;
+  
+  
+}
+
+.slider button{
+  background-color:rgba(52, 52, 148, 0.336);
 }
 
 .horizontal {
@@ -227,7 +232,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px yellowgreen;
+  
   padding: 12px 9px;
   gap: 6px;
 }
@@ -263,10 +268,35 @@ body {
   background: #02f760;
 }
 
+
 .pices {
   width: 300px;
   padding: 12px 9px;
+  
+
 }
+.images_2 .pices {
+  display: flex;              
+  justify-content: center;    
+  align-items: center;    
+  gap: 20px;                  
+  flex-wrap: wrap;            
+  width: 100%;                
+  padding: 12px 9px;
+}
+
+.images_2 .glr {
+  width: 250px;               
+  height: 380px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
 
 .glr {
   position: relative;
@@ -274,6 +304,7 @@ body {
   height: 380px;
   border-radius: 14px;
   overflow: hidden;
+  
 }
 
 .glr img {
@@ -281,6 +312,7 @@ body {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  
 }
 
 .glr img:hover {
@@ -347,4 +379,104 @@ body {
 
 .images_2{
     padding: 12px 9px;
+}
+
+/* Pour responsive  */
+
+
+body {
+  overflow-x: hidden;    
+}
+
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 10px;
+  }
+
+  .nav-left,
+  .nav-right {
+    gap: 15px;
+  }
+
+  .nav-center input {
+    width: 220px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-center {
+    width: 100%;
+  }
+
+  .nav-center input {
+    width: 100%;
+  }
+
+  .nav-right {
+    gap: 10px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .sub-menu {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .booking-options,
+  .options-2 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .gallery {
+    justify-content: center;
+  }
+
+  .gallery-item {
+    width: 48%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery-item {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .images_2 .glr {
+    width: 48%;
+  }
+}
+
+@media (max-width: 500px) {
+  .images_2 .glr {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .numbres {
+    width: 100%;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
