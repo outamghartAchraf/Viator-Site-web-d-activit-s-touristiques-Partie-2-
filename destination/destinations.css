@@ -156,12 +156,14 @@ body {
   overflow-x: auto;
   padding: 10px;
   border: none;
+ 
   
   
 }
 
 .slider button{
   background-color:rgba(52, 52, 148, 0.336);
+   cursor: pointer;
 }
 
 .horizontal {
